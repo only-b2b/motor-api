@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS leads (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  phone TEXT NOT NULL,
+  city TEXT NOT NULL,
+  vehicle TEXT NOT NULL,
+  pkg TEXT NOT NULL,
+  price INTEGER NOT NULL,
+  status TEXT NOT NULL DEFAULT 'New',
+  next TEXT,
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

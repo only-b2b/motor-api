@@ -1,0 +1,26 @@
+{
+  "name": "motors-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "dev:nodemon": "nodemon --experimental-specifier-resolution=node index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.100.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "firebase-admin": "^13.7.0",
+    "multer": "^2.0.2",
+    "ngeohash": "^0.6.3",
+    "node-fetch": "^3.3.2",
+    "pg": "^8.11.3",
+    "razorpay": "^2.9.6",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
